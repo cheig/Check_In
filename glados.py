@@ -17,7 +17,7 @@ def glados():
             driver.add_cookie(i)
         driver.get("https://glados.rocks/console/checkin")
         time.sleep(3)
-        driver.find_element_by_xpath("//*[@id="root"]/div/div/div/div[2]/div[2]/div/div[2]/button").click()
+        driver.find_element_by_xpath('//*[@id="root"]/div/div/div/div[2]/div[2]/div/div[2]/button').click()
         print('glados check in success!')
     except:
         raise
