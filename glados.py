@@ -1,6 +1,8 @@
 from util import *
 import json
 import time
+from selenium import webdriver
+
 #username = sys.argv[1] # 登录账号
 #password = sys.argv[2] # 登录密码
 #img_path = os.getcwd() + "/1.png"
@@ -8,7 +10,7 @@ import time
 @retry(stop_max_attempt_number=3)
 def glados():
     try:
-        driver = get_web_driver()
+        driver = webdriver.Chrome()
         driver.get("https://glados.rocks/console/checkin")
         with open(r'./glados_cookie.txt', 'r') as f:
             gla_cookie = json.load(f)
