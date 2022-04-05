@@ -1,5 +1,3 @@
-from PIL import Image
-import cv2, numpy as np
 from retrying import retry
 from selenium import webdriver
 import os, sys, time, requests
