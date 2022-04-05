@@ -32,6 +32,6 @@ jobs:
       run: |
         Xvfb :99 &
     - name: Run tests
-      run: pipenv run python manage.py test functional_tests.tests.test_selenium.test_exams -v 2
+      run: python ./glados.py
     env:
       DISPLAY: :99
