@@ -30,6 +30,6 @@ jobs:
       run: |
         Xvfb :99 &
     - name: Run tests
-      run: python ./glados.py
+      run: python ./glados.py ${{ secrets.GLABOS }}
     env:
       DISPLAY: :99

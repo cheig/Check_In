@@ -1,1 +1,0 @@
-[{"domain": ".glados.rocks", "expiry": 1673488975, "httpOnly": true, "name": "koa:sess.sig", "path": "/", "secure": true, "value": "ng7hRNATM4xxZLxg3zzN1FlNunc"}, {"domain": ".glados.rocks", "expiry": 1673488975, "httpOnly": true, "name": "koa:sess", "path": "/", "secure": true, "value": "eyJ1c2VySWQiOjMxOTMzLCJfZXhwaXJlIjoxNjczNDg4OTc4MTA1LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0="}]

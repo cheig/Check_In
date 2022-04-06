@@ -11,8 +11,7 @@ def glados():
     try:
         driver = get_web_driver()
         driver.get("https://glados.rocks/console/checkin")
-        with open(r'./glados_cookie.txt', 'r') as f:
-            gla_cookie = json.load(f)
+        gla_cookie = json.loads(sys.argv[1])
         print(gla_cookie)
         driver.delete_all_cookies()
         for i in gla_cookie:
