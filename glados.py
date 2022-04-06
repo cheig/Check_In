@@ -5,6 +5,12 @@ import time
 #username = sys.argv[1] # 登录账号
 #password = sys.argv[2] # 登录密码
 #img_path = os.getcwd() + "/1.png"
+print('------')
+print(sys.argv[1])
+print('------')
+print(sys.argv[2])
+print('------')
+print(sys.argv[3])
 
 @retry(stop_max_attempt_number=3)
 def glados():
